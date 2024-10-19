@@ -1,0 +1,289 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: none;
+  font-family: 'Arial', sans-serif;
+}
+
+.container
+{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #FF7518;
+  overflow-y: auto;
+}
+
+.top_page
+{
+  width: 80%;
+  padding: 20px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  position: relative;
+  text-align: center;
+}
+
+.first_section
+{
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tide_heading
+{
+  color: #ffffff;
+  font-size: 8rem;
+  font-weight: bold;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+  margin-bottom: 30px;
+  margin-top: 8px;
+  cursor: default;
+}
+
+.tide_subHeading
+{
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+  margin-bottom: 30px;
+  margin-top: 8px;
+  cursor: default;
+}
+
+img.tideBrand
+{
+  width: 20%;
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+  float: left;
+  position: relative;
+}
+
+.navBar
+{
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 10px 25px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.navDiv ul
+{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navDiv ul li
+{
+  display: inline;
+}
+
+.navDiv ul li a
+{
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navDiv ul li a:hover
+{
+  background-color: #ff7f50;
+  border-radius: 5px;
+  color: #000000;
+}
+
+.second_section
+{
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.second_section div
+{
+  flex: 1 1 45%;
+  margin: 10px;
+  background-color: rgba(240, 240, 240, 1);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.tideDefinition
+{
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.tideDefinition h1, .second_section h1, .third_section h1, .fourth_section h1, .fifth_section h1
+{
+  color: #333;
+  font-size: 3rem;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.tideDefinition p, .second_section p
+{
+  color: #555;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+img.tideLiqDeter, img.tidePowDeter, img.tidePods, img.tidePowPods
+{
+  width: 35%;
+  max-width: 180px;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 10px;
+  float: right;
+}
+
+.outro p
+{
+  color: #555;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.third_section, .fourth_section, .fifth_section
+{
+  display: none;
+}
+
+.first_section, .second_section, .third_section, .fourth_section, .fifth_section
+{
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    cursor: default;
+}
+
+.first_section h1, .second_section h1, .third_section h1, .fourth_section h1, .fifth_section h1
+{
+    font-size: 2.5rem;
+    color: #FF7518;
+}
+
+.first_section p, .second_section p, .third_section p, .fourth_section p, .fifth_section p
+{
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.fourth_section ul
+{
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #555;
+}
+
+.fourth_section li
+{
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.first_section, .second_section, .third_section, .fourth_section, .fifth_section, .whatIsTide, .tideProperUsageAndDisposal, .tidePrecautionAndHealthRisks
+{
+    transition: background-color 0.3s ease;
+}
+
+.first_section:hover, .second_section:hover, .third_section:hover, .fourth_section:hover, .fifth_section:hover, .whatIsTide:hover, .tideProperUsageAndDisposal:hover, .tidePrecautionAndHealthRisks:hover
+{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+.page_section
+{
+  border-radius: 15px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.page_section div
+{
+  width: 30%;
+  background-color: rgba(240, 240, 240, 1);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page_section img
+{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.page_section label
+{
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 10px;
+}
+
+.whatIsTide, .tideProperUsageAndDisposal, .tidePrecautionAndHealthRisks
+{
+  cursor: pointer;
+}
+
+.photos_section
+{
+  border-radius: 15px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
